@@ -24,7 +24,7 @@ export default NextAuth({
             clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         }),
         TwitterProvider({
-            clientId: process.env.TWITTER_ID,
+            clientId: process.env.TWITTER_CLIENT_ID,
             clientSecret: process.env.TWITTER_SECRET,
             version: "2.0",
         })
